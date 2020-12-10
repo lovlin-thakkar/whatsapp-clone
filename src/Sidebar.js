@@ -11,7 +11,7 @@ import db from "./firebase";
 import { useStateValue } from "./StateProvider";
 
 export function Sidebar() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   const [rooms, setRooms] = useState([]);
 
   useEffect(() => {

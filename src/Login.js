@@ -1,13 +1,13 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import "./Login.css";
-import { auth, provider } from "./firebase";
+import { provider } from "./firebase";
 import firebase from "firebase";
 import { useStateValue } from "./StateProvider";
 import { actionTypes } from "./reducer";
 
 export default function Login() {
-  const [{}, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
 
   const signIn = () => {
     firebase

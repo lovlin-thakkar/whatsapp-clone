@@ -12,7 +12,7 @@ import { useStateValue } from "./StateProvider";
 import firebase from "firebase";
 
 export function Chat() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
   const [input, setInput] = useState("");
   const { roomId } = useParams();
   const [roomName, setRoomName] = useState("");
