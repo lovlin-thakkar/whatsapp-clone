@@ -1,3 +1,6 @@
+![Deploy to Firebase Hosting on merge](https://github.com/lovlin-thakkar/whatsapp-clone/workflows/Deploy%20to%20Firebase%20Hosting%20on%20merge/badge.svg)
+![Deploy to Firebase Hosting on PR](https://github.com/lovlin-thakkar/whatsapp-clone/workflows/Deploy%20to%20Firebase%20Hosting%20on%20PR/badge.svg)
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
