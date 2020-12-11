@@ -27,7 +27,7 @@ export function Chat() {
       db.collection("Rooms")
         .doc(roomId)
         .collection("Messages")
-        .orderBy("timestamp", "asc")
+        .orderBy("timestamp", "desc")
         .onSnapshot((snapshot) =>
           setMessages(snapshot.docs.map((doc) => doc.data()))
         );
