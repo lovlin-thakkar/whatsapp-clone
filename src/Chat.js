@@ -56,9 +56,7 @@ export function Chat() {
           <p>
             {messages.length > 0
               ? "Last Seen at " +
-                new Date(
-                  messages[messages.length - 1].timestamp?.toDate()
-                ).toUTCString()
+                new Date(messages[0].timestamp?.toDate()).toUTCString()
               : ""}
           </p>
         </div>
